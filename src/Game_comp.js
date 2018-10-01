@@ -24,7 +24,7 @@ export default class Game extends React.Component {
         //return;
         console.log('winner');
       }
-      
+      //set state using Object.assign
       this.setState({
         history: history.concat([
           {
